@@ -1,0 +1,21 @@
+{
+  "name": "conflictcore-backend",
+  "version": "1.0.0",
+  "description": "ConflictCore - Multi-User File Management System Backend & Data Layer",
+  "main": "src/db/index.js",
+  "scripts": {
+    "test:db": "node tests/db.test.js"
+  },
+  "keywords": [
+    "conflictcore",
+    "mysql",
+    "data-layer",
+    "repositories"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.12.0"
+  }
+}
